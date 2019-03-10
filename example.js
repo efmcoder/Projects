@@ -32,8 +32,3 @@ console.log(child.name);
 console.log(child.hasOwnProperty("job")); //true
 console.log(child.hasOwnProperty("lastName")); //false because this is not the child's own property
 console.log(child instanceof Person); //true
-
-var x = [2,4,6];
-
-console.log(x);
-console.log(x.length);
