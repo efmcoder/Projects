@@ -20,20 +20,21 @@ function disarrange(arr){
 }
 console.log("Reverse array: " + disarrange(x)); //this doesn't work for 2-digit numbers
 
-//USE ALL POSSIBLE FUNCTIONS
-console.log(
-  x.sort()
-);
-
+//PART II
 //SPLIT STRING
 var y = "Read the New York Times";
-console.log(y.split(""));
-console.log(y.split(" "));
+console.log(y.split("")); //splits at letter level
+console.log(y.split(" ")); //splits at whole word level
 
 //Or you can write a function instead
 var str = "I live in Boston";
 function split(str){
   return str.split();
 }
-console.log(str.split(""));
-console.log(str.split(" "));
+console.log(str.split("")); //splits at letter level
+console.log(str.split(" ")); //splits at whole word level
+
+//SPLIT
+var sentence = ["Hi", "Duncan"];
+var combo = sentence.join(" ");
+console.log(combo);
