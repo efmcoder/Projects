@@ -23,5 +23,17 @@ console.log("Reverse array: " + disarrange(x)); //this doesn't work for 2-digit 
 //USE ALL POSSIBLE FUNCTIONS
 console.log(
   x.sort()
-
 );
+
+//SPLIT STRING
+var y = "Read the New York Times";
+console.log(y.split(""));
+console.log(y.split(" "));
+
+//Or you can write a function instead
+var str = "I live in Boston";
+function split(str){
+  return str.split();
+}
+console.log(str.split(""));
+console.log(str.split(" "));
