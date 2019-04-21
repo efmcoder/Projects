@@ -1,0 +1,28 @@
+html,body{
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  min-width: 260px;
+  color: #333;
+}
+
+#main{
+  margin: 30px; /*add stuff*/
+  /*padding: 15px;*/
+  border: 5px solid;
+  border-radius: 25px;
+  background: #eee;
+}
+img{
+  max-width: 100%;
+  display: block; /*what does this do*/
+  height: auto;
+  margin: auto;
+}
+
+#img-div{
+  margin: 15px; /*space btw img & captioning above image*/
+  margin-top: 20px;
+  /*width: 100%; 
+  border: 5px solid white;
+  background: #fff;*/
+}
