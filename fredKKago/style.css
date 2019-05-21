@@ -6,26 +6,33 @@ h1{
   color: white;
 }
 
-.btn{
-  padding: 10px 2px;
-  overflow: hidden;
-  background: #d8203b;
-  border: 2px solid #d8203b;
-  border-radius: 0;
-  color: #fff;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: .04em;
+.button {
+  float: left;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 250px;
+}
+
+
+
+
+
+  img{
+    max-width: 100%;
+    display: block; /*what does this do*/
+    height: inherit;
+    margin: auto;
   }
 
-
-img{
-  display: block;
-  max-width: 100%
-  vertical-align: baseline;
-}
 
 .wrapper{
   margin: auto;
@@ -36,6 +43,25 @@ img{
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
+.btn{
+  width: 213px;
+  height: 46px;
+  padding: 10px 15px;
+  overflow: hidden;
+  background: #d8203b;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.c6{
+  background: #d8203b;
+  padding: 20,20,20,20;
+}
+
 
 .c7{ /* this is to style the area with the fancy a "the home of..."*/
   position: relative;
@@ -66,19 +92,7 @@ img{
   box-sizing: border-box;
 }
 
-#main{
-  margin: 30px; /*add stuff*/
-  /*padding: 15px;*/
-  border: 5px solid;
-  border-radius: 25px;
-  background: #eee;
-}
-img{
-  max-width: 75%;
-  display: block; /*what does this do*/
-  height: inherit;
-  margin: auto;
-}
+
 
 #img-div{
   margin: 15px; /*space btw img & captioning above image*/
